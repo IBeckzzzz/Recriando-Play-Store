@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-card-pricing',
@@ -6,11 +6,6 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./card-pricing.component.css']
 })
 export class CardPricingComponent implements OnInit {
-
-  @Input()
-  gameType:string ="Digital PS4"
-  @Input()
-  gamePrice:string = "R$ 75,99"
 
   constructor() { }
 
